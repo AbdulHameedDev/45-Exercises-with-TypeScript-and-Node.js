@@ -1,17 +1,18 @@
-// Define an interface for a book object
+// Define an interface named `itCourse` for a book object
 interface itCourse {
-    courseName: string;
-    location: string;
-    onsiteStudents: number;
-    onlineStudents: number;
+    courseName: string;            // Property for the name of the course
+    location: string;             // Property for the location of the course
+    onsiteStudents: number;      // Property for the number of onsite students
+    onlineStudents: number;     // Property for the number of online students
 }
 
+// Define an object of type `itCourse` representing a course in IT
 let itCourse: itCourse = {
-    courseName: "Cloud Applied Generative AI Engineering",
-    location: "Governor Sindh House",
-    onsiteStudents: 50000,
-    onlineStudents: 500000
+    courseName: "Cloud Applied Generative AI Engineering",  // Course name
+    location: "Governor Sindh House",                      // Location of the course
+    onsiteStudents: 50000,                                // Number of onsite students
+    onlineStudents: 500000                               // Number of online students
 };
 
+// Output the `itCourse` object to the console
 console.log(itCourse);
-

@@ -1,21 +1,23 @@
+// Define a variable named alienColor and assign it the value "green"
 let alienColor: string = 'green';
 
 // Check if the alien's color is green
 if (alienColor == 'green') {
-    // Print a message 
+    // Print a message if the condition is met
     console.log("Congratulations! You just earned 5 points for shooting the alien!");
 } else {
-    // This block will not be executed if the condition is met
+    // Print a different message if the condition is not met
     console.log("Congratulations! You just earned 10 points!"); 
 }
 
 
-// Second version of the program that runs the else block (alien's color is not green):
+// Second version of the program where the alien's color is not green, so the else block runs:
 
+// Check if the alien's color is red
 if(alienColor == 'red'){
-    // This block will not be executed buz conditions not met
+    // This block will not be executed because the condition is not met
     console.log("Congratulations! You just earned 5 points for shooting the alien!"); 
 } else {
-    // Print a message
+    // Print a message if the condition is not met
     console.log("Congratulations! You just earned 10 points!");
 }

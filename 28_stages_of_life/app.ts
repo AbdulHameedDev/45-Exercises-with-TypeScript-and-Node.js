@@ -1,7 +1,8 @@
 // Set the value for the variable 'age'
-const age: number = 23;
+let age: number = 23;
 
 // If Else~
+// Check the age range and print the corresponding message
 if (age < 2) {
     console.log("The person is a baby.");
 } else if (age >= 2 && age < 4) {

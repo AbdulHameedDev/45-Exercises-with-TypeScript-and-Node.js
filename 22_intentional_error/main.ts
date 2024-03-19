@@ -1,8 +1,8 @@
+// Declare an array named `numbers` containing a list of numbers
 let numbers: number[] = [1, 2, 3, 4, 5];
 
-//Error!!  Access an element at an invalid index
+// Error!! Attempting to access an element at an index that doesn't exist in the array
 console.log(numbers[10]);
 
-
-// Correctly access an element within the  array
+// Correctly access the first element (index 0) of the array
 console.log(numbers[0]);

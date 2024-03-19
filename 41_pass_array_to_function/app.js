@@ -1,8 +1,9 @@
-// Define a function that takes an array of magician names as input and prints each name.
+// Define a function named show_magicians to print each magician name from an array
 function show_magicians(magicians) {
+    // Use forEach loop to iterate over each magician name and print it
     magicians.forEach(function (name) { return console.log(name); });
 }
-// Define an array
+// Define an array containing magician names
 var magician_names = ["Hamza", "Mirza", "Usman", "Areeba"];
-// Call the show_magicians function with the array
+// Call the show_magicians function with the array of magician names
 show_magicians(magician_names);

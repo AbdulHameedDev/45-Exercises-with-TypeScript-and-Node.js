@@ -1,6 +1,7 @@
 // Set the value for the variable 'age'
 var age = 23;
 // If Else~
+// Check the age range and print the corresponding message
 if (age < 2) {
     console.log("The person is a baby.");
 }
